@@ -1,0 +1,90 @@
+.login {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../../assests/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+    .loginLoader{
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top:0px;
+        left: 0px;
+        position: absolute;
+        z-index: 50;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: grid;
+        place-content: center;
+    }
+
+
+    .inner {
+        width: 100%;
+        height: 90vh;
+        display: grid;
+        place-content: center;
+
+        .signupForm {
+            width: 450px;
+            height: 300px;
+
+            .form_group {
+                display: grid;
+                grid-template-columns: 130px 1fr;
+                height: 40px;
+                margin-top: 30px;
+                background-color: white;
+
+                div {
+                    display: grid;
+                    place-content: center;
+
+                    .but {
+                        padding: 3px 35px 3px 35px;
+                        text-transform: none;
+                        font-size: 12px;
+                        border-radius: 0px;
+                        width: 100px;
+                        color: white;
+                        background: linear-gradient(95.32deg, #313131 0%, #000000 101.64%);
+                    }
+                }
+
+                input {
+                    height: 100%;
+                    font-size: 14px;
+                    padding-left: 20px;
+                    font-weight: 500;
+                    outline: none;
+                    border: none;
+                }
+            }
+
+            .btnBox {
+                margin-top: 40px;
+                text-align: center;
+
+                .subBt {
+                    padding: 3px 35px 3px 35px;
+                    text-transform: none;
+                    background: linear-gradient(95.32deg, #313131 0%, #000000 101.64%);
+                    border: 2px solid #FFFFFF;
+                    border-radius: 3px;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width:550px) {
+    .login{
+        .inner{
+            .signupForm{
+                width: 90%;
+            }
+        }
+    }
+}

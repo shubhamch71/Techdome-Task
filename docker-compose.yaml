@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  frontend:
+    image: shubhamchau/td-frontend:v1
+    ports:
+      - "80:80"
+  backend:
+    image: shubhamchau/td-backend:v1
+    environment:
+      - PORT=8080
+      - CLOUD_NAME=dummy
+      - API_KEY=dummy
+      - API_SECRET=dummyI
+      - SECRET=abc
+      - DB=mongodb://database:27017/techdome
+    ports:
+      - "8080:8080"
+  database:
+    image: mongo:latest
+    volumes: 
+      - mongo-data:/data/db
+
+volumes:
+  mongo-data:
+    driver: local
