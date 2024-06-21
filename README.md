@@ -163,19 +163,11 @@ volumes:
    ```bash
    docker-compose up -d 
    ```
+### For Deploying it on Kubernetes 
+You can refer to this --> [Deploy it on Kubernetes](K8s/README.md)
 
-### Terraform Automation
-
-1. **Initialize Terraform**:
-
-   ```bash
-   terraform init
-   ```
-
-2. **Apply the Terraform scripts** to set up the infrastructure:
-   ```bash
-   terraform apply
-   ```
+### Terraform Automation 
+You can refer to this --> [Automating Deployment using Terraform](Terraform/README.md)
 
 ## Challenges Faced
 
