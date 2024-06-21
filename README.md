@@ -22,6 +22,9 @@ The TechDome application follows a microservices architecture, consisting of thr
 2. **Backend**: A Node.js application providing RESTful APIs connecting to Cloudinary and other services such as frontend and DB.
 3. **Database**: A MongoDB instance for data storage.
 
+![image](https://github.com/shubhamch71/Techdome-Task/assets/83663663/e68e7d99-2c47-4d56-8b15-92e2644e6793)
+
+
 ## Directory Structure
 
 ### Frontend Directory
