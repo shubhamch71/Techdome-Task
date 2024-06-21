@@ -1,16 +1,14 @@
 
-# TechDome Application
+# TechDome Blog Application
 
 ## Table of Contents
 - [Overview](#Overview)
 - [Architecture](#Architecture)
 - [Directory Structure](#Directory-Structure)
-- [Deployment Strategy](#deployment-strategy)
-- [Building the Application](#building-the-application)
-- [Deploying the Application](#deploying-the-application)
-- [Managing the Application](#managing-the-application)
-- [Challenges Faced](#challenges-faced)
-- [Potential Solutions](#potential-solutions)
+- [Application Deployment Steps](#Application-Deployment-Steps)
+- [Challenges Faced](#Challenges-Faced)
+- [Potential Solutions](#Potential-Solution)
+- [Conclusion](#Conclusion)
 
 ## Overview
 
@@ -109,37 +107,7 @@ backend dir
 
 ````
 
-### Docker Compose File
-```yaml
-version: '3.7'
-
-services:
-  frontend:
-    image: shubhamchau/td-frontend:v1
-    ports:
-      - "80:80"
-  backend:
-    image: shubhamchau/td-backend:v1
-    environment:
-      - PORT=8080
-      - CLOUD_NAME=dummy
-      - API_KEY=dummy
-      - API_SECRET=dummyI
-      - SECRET=abc
-      - DB=mongodb://database:27017/techdome
-    ports:
-      - "8080:8080"
-  database:
-    image: mongo:latest
-    volumes:
-      - mongo-data:/data/db
-
-volumes:
-  mongo-data:
-    driver: local
-````
-
-## Deployment Strategy
+## Application Deployment Steps
 
 ### Docker
 
@@ -171,7 +139,7 @@ You can refer to this --> [Automating Deployment using Terraform](Terraform/READ
 
 ## Challenges Faced
 
-### 1.CORS Error
+### 1.Unable to use Kubernetes Secrets due to API not able to correctly read the secrets values and map them (CORS Error)
 
 While using Kubernetes secrets, the application encountered a CORS error:
 
@@ -183,10 +151,11 @@ Object { stack: "fr@http://192.168.49.2:32081/static/js/main.a16b5dbf.js:2:27896
 **Reason**: The frontend application was trying to access the backend API without proper CORS configuration.
 
 ### Potential Solution
- Ensure that the backend API is configured to allow CORS requests from the frontend's origin. This can be done by adding appropriate CORS headers in the backend server.
+ **Ensure that the backend API is configured to allow CORS requests from the frontend's origin and also can read the Kubernetes secrets and map them correctly.**  
 
+ **After resolving the error , we can follow the below steps for integrating Kubernetes Secrets into the app**
 
-2. **Store sensitive information** in Kubernetes secrets:
+1. **Store sensitive information** in Kubernetes secrets:
 
    ```yaml
    apiVersion: v1
@@ -200,7 +169,7 @@ Object { stack: "fr@http://192.168.49.2:32081/static/js/main.a16b5dbf.js:2:27896
      DB_URI: base64_encoded_db_uri
    ```
 
-3. **Reference the secrets** in the Kubernetes deployment:
+2. **Reference the secrets** in the Kubernetes deployment:
    ```yaml
    apiVersion: apps/v1
    kind: Deployment
@@ -209,7 +178,7 @@ Object { stack: "fr@http://192.168.49.2:32081/static/js/main.a16b5dbf.js:2:27896
    spec:
      containers:
      - name: backend
-       image: shubhamchau/td-backend:v1
+       image: username/<image-name>
        env:
        - name: API_KEY
          valueFrom:
@@ -228,7 +197,7 @@ Object { stack: "fr@http://192.168.49.2:32081/static/js/main.a16b5dbf.js:2:27896
              key: DB_URI
    ```
  
-By implementing these changes, the application will be more secure and free from CORS issues.
+By implementing these changes, the application will be more secure.
 
 ## Conclusion
 
