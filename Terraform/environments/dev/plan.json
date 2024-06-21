@@ -1,0 +1,1477 @@
+{
+  "@level": "info",
+  "@message": "Terraform 1.8.5",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:11.487771+05:30",
+  "terraform": "1.8.5",
+  "type": "version",
+  "ui": "1.2"
+}
+{
+  "@level": "info",
+  "@message": "module.eks.module.eks_managed_node_group[\"eks_nodes\"].data.aws_partition.current: Refreshing...",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:25.007032+05:30",
+  "hook": {
+    "resource": {
+      "addr": "module.eks.module.eks_managed_node_group[\"eks_nodes\"].data.aws_partition.current",
+      "module": "module.eks.module.eks_managed_node_group[\"eks_nodes\"]",
+      "resource": "data.aws_partition.current",
+      "implied_provider": "aws",
+      "resource_type": "aws_partition",
+      "resource_name": "current",
+      "resource_key": null
+    },
+    "action": "read"
+  },
+  "type": "apply_start"
+}
+{
+  "@level": "info",
+  "@message": "module.eks.data.aws_caller_identity.current: Refreshing...",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:25.007544+05:30",
+  "hook": {
+    "resource": {
+      "addr": "module.eks.data.aws_caller_identity.current",
+      "module": "module.eks",
+      "resource": "data.aws_caller_identity.current",
+      "implied_provider": "aws",
+      "resource_type": "aws_caller_identity",
+      "resource_name": "current",
+      "resource_key": null
+    },
+    "action": "read"
+  },
+  "type": "apply_start"
+}
+{
+  "@level": "info",
+  "@message": "module.eks.module.kms.data.aws_partition.current: Refreshing...",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:25.008168+05:30",
+  "hook": {
+    "resource": {
+      "addr": "module.eks.module.kms.data.aws_partition.current",
+      "module": "module.eks.module.kms",
+      "resource": "data.aws_partition.current",
+      "implied_provider": "aws",
+      "resource_type": "aws_partition",
+      "resource_name": "current",
+      "resource_key": null
+    },
+    "action": "read"
+  },
+  "type": "apply_start"
+}
+{
+  "@level": "info",
+  "@message": "module.eks.module.eks_managed_node_group[\"eks_nodes\"].data.aws_caller_identity.current: Refreshing...",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:25.008633+05:30",
+  "hook": {
+    "resource": {
+      "addr": "module.eks.module.eks_managed_node_group[\"eks_nodes\"].data.aws_caller_identity.current",
+      "module": "module.eks.module.eks_managed_node_group[\"eks_nodes\"]",
+      "resource": "data.aws_caller_identity.current",
+      "implied_provider": "aws",
+      "resource_type": "aws_caller_identity",
+      "resource_name": "current",
+      "resource_key": null
+    },
+    "action": "read"
+  },
+  "type": "apply_start"
+}
+{
+  "@level": "info",
+  "@message": "module.eks.module.kms.data.aws_caller_identity.current: Refreshing...",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:25.008731+05:30",
+  "hook": {
+    "resource": {
+      "addr": "module.eks.module.kms.data.aws_caller_identity.current",
+      "module": "module.eks.module.kms",
+      "resource": "data.aws_caller_identity.current",
+      "implied_provider": "aws",
+      "resource_type": "aws_caller_identity",
+      "resource_name": "current",
+      "resource_key": null
+    },
+    "action": "read"
+  },
+  "type": "apply_start"
+}
+{
+  "@level": "info",
+  "@message": "module.eks.data.aws_partition.current: Refreshing...",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:25.011284+05:30",
+  "hook": {
+    "resource": {
+      "addr": "module.eks.data.aws_partition.current",
+      "module": "module.eks",
+      "resource": "data.aws_partition.current",
+      "implied_provider": "aws",
+      "resource_type": "aws_partition",
+      "resource_name": "current",
+      "resource_key": null
+    },
+    "action": "read"
+  },
+  "type": "apply_start"
+}
+{
+  "@level": "info",
+  "@message": "module.eks.module.kms.data.aws_partition.current: Refresh complete after 0s [id=aws]",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:25.015915+05:30",
+  "hook": {
+    "resource": {
+      "addr": "module.eks.module.kms.data.aws_partition.current",
+      "module": "module.eks.module.kms",
+      "resource": "data.aws_partition.current",
+      "implied_provider": "aws",
+      "resource_type": "aws_partition",
+      "resource_name": "current",
+      "resource_key": null
+    },
+    "action": "read",
+    "id_key": "id",
+    "id_value": "aws",
+    "elapsed_seconds": 0
+  },
+  "type": "apply_complete"
+}
+{
+  "@level": "info",
+  "@message": "module.eks.module.eks_managed_node_group[\"eks_nodes\"].data.aws_partition.current: Refresh complete after 0s [id=aws]",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:25.016232+05:30",
+  "hook": {
+    "resource": {
+      "addr": "module.eks.module.eks_managed_node_group[\"eks_nodes\"].data.aws_partition.current",
+      "module": "module.eks.module.eks_managed_node_group[\"eks_nodes\"]",
+      "resource": "data.aws_partition.current",
+      "implied_provider": "aws",
+      "resource_type": "aws_partition",
+      "resource_name": "current",
+      "resource_key": null
+    },
+    "action": "read",
+    "id_key": "id",
+    "id_value": "aws",
+    "elapsed_seconds": 0
+  },
+  "type": "apply_complete"
+}
+{
+  "@level": "info",
+  "@message": "module.eks.data.aws_partition.current: Refresh complete after 0s [id=aws]",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:25.016310+05:30",
+  "hook": {
+    "resource": {
+      "addr": "module.eks.data.aws_partition.current",
+      "module": "module.eks",
+      "resource": "data.aws_partition.current",
+      "implied_provider": "aws",
+      "resource_type": "aws_partition",
+      "resource_name": "current",
+      "resource_key": null
+    },
+    "action": "read",
+    "id_key": "id",
+    "id_value": "aws",
+    "elapsed_seconds": 0
+  },
+  "type": "apply_complete"
+}
+{
+  "@level": "info",
+  "@message": "module.eks.module.eks_managed_node_group[\"eks_nodes\"].data.aws_iam_policy_document.assume_role_policy[0]: Refreshing...",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:25.029618+05:30",
+  "hook": {
+    "resource": {
+      "addr": "module.eks.module.eks_managed_node_group[\"eks_nodes\"].data.aws_iam_policy_document.assume_role_policy[0]",
+      "module": "module.eks.module.eks_managed_node_group[\"eks_nodes\"]",
+      "resource": "data.aws_iam_policy_document.assume_role_policy[0]",
+      "implied_provider": "aws",
+      "resource_type": "aws_iam_policy_document",
+      "resource_name": "assume_role_policy",
+      "resource_key": 0
+    },
+    "action": "read"
+  },
+  "type": "apply_start"
+}
+{
+  "@level": "info",
+  "@message": "module.eks.data.aws_iam_policy_document.assume_role_policy[0]: Refreshing...",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:25.029875+05:30",
+  "hook": {
+    "resource": {
+      "addr": "module.eks.data.aws_iam_policy_document.assume_role_policy[0]",
+      "module": "module.eks",
+      "resource": "data.aws_iam_policy_document.assume_role_policy[0]",
+      "implied_provider": "aws",
+      "resource_type": "aws_iam_policy_document",
+      "resource_name": "assume_role_policy",
+      "resource_key": 0
+    },
+    "action": "read"
+  },
+  "type": "apply_start"
+}
+{
+  "@level": "info",
+  "@message": "module.eks.data.aws_iam_policy_document.assume_role_policy[0]: Refresh complete after 0s [id=2764486067]",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:25.033760+05:30",
+  "hook": {
+    "resource": {
+      "addr": "module.eks.data.aws_iam_policy_document.assume_role_policy[0]",
+      "module": "module.eks",
+      "resource": "data.aws_iam_policy_document.assume_role_policy[0]",
+      "implied_provider": "aws",
+      "resource_type": "aws_iam_policy_document",
+      "resource_name": "assume_role_policy",
+      "resource_key": 0
+    },
+    "action": "read",
+    "id_key": "id",
+    "id_value": "2764486067",
+    "elapsed_seconds": 0
+  },
+  "type": "apply_complete"
+}
+{
+  "@level": "info",
+  "@message": "module.eks.module.eks_managed_node_group[\"eks_nodes\"].data.aws_iam_policy_document.assume_role_policy[0]: Refresh complete after 0s [id=2560088296]",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:25.039780+05:30",
+  "hook": {
+    "resource": {
+      "addr": "module.eks.module.eks_managed_node_group[\"eks_nodes\"].data.aws_iam_policy_document.assume_role_policy[0]",
+      "module": "module.eks.module.eks_managed_node_group[\"eks_nodes\"]",
+      "resource": "data.aws_iam_policy_document.assume_role_policy[0]",
+      "implied_provider": "aws",
+      "resource_type": "aws_iam_policy_document",
+      "resource_name": "assume_role_policy",
+      "resource_key": 0
+    },
+    "action": "read",
+    "id_key": "id",
+    "id_value": "2560088296",
+    "elapsed_seconds": 0
+  },
+  "type": "apply_complete"
+}
+{
+  "@level": "info",
+  "@message": "module.eks.module.eks_managed_node_group[\"eks_nodes\"].data.aws_caller_identity.current: Refresh complete after 1s [id=064407871626]",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:25.899931+05:30",
+  "hook": {
+    "resource": {
+      "addr": "module.eks.module.eks_managed_node_group[\"eks_nodes\"].data.aws_caller_identity.current",
+      "module": "module.eks.module.eks_managed_node_group[\"eks_nodes\"]",
+      "resource": "data.aws_caller_identity.current",
+      "implied_provider": "aws",
+      "resource_type": "aws_caller_identity",
+      "resource_name": "current",
+      "resource_key": null
+    },
+    "action": "read",
+    "id_key": "id",
+    "id_value": "064407871626",
+    "elapsed_seconds": 1
+  },
+  "type": "apply_complete"
+}
+{
+  "@level": "info",
+  "@message": "module.eks.data.aws_caller_identity.current: Refresh complete after 2s [id=064407871626]",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:26.625254+05:30",
+  "hook": {
+    "resource": {
+      "addr": "module.eks.data.aws_caller_identity.current",
+      "module": "module.eks",
+      "resource": "data.aws_caller_identity.current",
+      "implied_provider": "aws",
+      "resource_type": "aws_caller_identity",
+      "resource_name": "current",
+      "resource_key": null
+    },
+    "action": "read",
+    "id_key": "id",
+    "id_value": "064407871626",
+    "elapsed_seconds": 2
+  },
+  "type": "apply_complete"
+}
+{
+  "@level": "info",
+  "@message": "module.eks.data.aws_iam_session_context.current: Refreshing...",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:26.628973+05:30",
+  "hook": {
+    "resource": {
+      "addr": "module.eks.data.aws_iam_session_context.current",
+      "module": "module.eks",
+      "resource": "data.aws_iam_session_context.current",
+      "implied_provider": "aws",
+      "resource_type": "aws_iam_session_context",
+      "resource_name": "current",
+      "resource_key": null
+    },
+    "action": "read"
+  },
+  "type": "apply_start"
+}
+{
+  "@level": "info",
+  "@message": "module.eks.data.aws_iam_session_context.current: Refresh complete after 0s [id=arn:aws:iam::064407871626:user/terraform-usr-1]",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:26.632830+05:30",
+  "hook": {
+    "resource": {
+      "addr": "module.eks.data.aws_iam_session_context.current",
+      "module": "module.eks",
+      "resource": "data.aws_iam_session_context.current",
+      "implied_provider": "aws",
+      "resource_type": "aws_iam_session_context",
+      "resource_name": "current",
+      "resource_key": null
+    },
+    "action": "read",
+    "id_key": "id",
+    "id_value": "arn:aws:iam::064407871626:user/terraform-usr-1",
+    "elapsed_seconds": 0
+  },
+  "type": "apply_complete"
+}
+{
+  "@level": "info",
+  "@message": "module.eks.module.kms.data.aws_caller_identity.current: Refresh complete after 2s [id=064407871626]",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:27.027003+05:30",
+  "hook": {
+    "resource": {
+      "addr": "module.eks.module.kms.data.aws_caller_identity.current",
+      "module": "module.eks.module.kms",
+      "resource": "data.aws_caller_identity.current",
+      "implied_provider": "aws",
+      "resource_type": "aws_caller_identity",
+      "resource_name": "current",
+      "resource_key": null
+    },
+    "action": "read",
+    "id_key": "id",
+    "id_value": "064407871626",
+    "elapsed_seconds": 2
+  },
+  "type": "apply_complete"
+}
+{
+  "@level": "info",
+  "@message": "module.eks.aws_cloudwatch_log_group.this[0]: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.109660+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.eks.aws_cloudwatch_log_group.this[0]",
+      "module": "module.eks",
+      "resource": "aws_cloudwatch_log_group.this[0]",
+      "implied_provider": "aws",
+      "resource_type": "aws_cloudwatch_log_group",
+      "resource_name": "this",
+      "resource_key": 0
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "module.vpc.aws_vpc.this[0]: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.110037+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.vpc.aws_vpc.this[0]",
+      "module": "module.vpc",
+      "resource": "aws_vpc.this[0]",
+      "implied_provider": "aws",
+      "resource_type": "aws_vpc",
+      "resource_name": "this",
+      "resource_key": 0
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "module.vpc.aws_default_security_group.this[0]: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.110177+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.vpc.aws_default_security_group.this[0]",
+      "module": "module.vpc",
+      "resource": "aws_default_security_group.this[0]",
+      "implied_provider": "aws",
+      "resource_type": "aws_default_security_group",
+      "resource_name": "this",
+      "resource_key": 0
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "module.vpc.aws_default_route_table.default[0]: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.110313+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.vpc.aws_default_route_table.default[0]",
+      "module": "module.vpc",
+      "resource": "aws_default_route_table.default[0]",
+      "implied_provider": "aws",
+      "resource_type": "aws_default_route_table",
+      "resource_name": "default",
+      "resource_key": 0
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "module.eks.aws_iam_role.this[0]: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.110443+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.eks.aws_iam_role.this[0]",
+      "module": "module.eks",
+      "resource": "aws_iam_role.this[0]",
+      "implied_provider": "aws",
+      "resource_type": "aws_iam_role",
+      "resource_name": "this",
+      "resource_key": 0
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "module.vpc.aws_default_network_acl.this[0]: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.110569+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.vpc.aws_default_network_acl.this[0]",
+      "module": "module.vpc",
+      "resource": "aws_default_network_acl.this[0]",
+      "implied_provider": "aws",
+      "resource_type": "aws_default_network_acl",
+      "resource_name": "this",
+      "resource_key": 0
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "module.eks.aws_security_group.node[0]: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.110696+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.eks.aws_security_group.node[0]",
+      "module": "module.eks",
+      "resource": "aws_security_group.node[0]",
+      "implied_provider": "aws",
+      "resource_type": "aws_security_group",
+      "resource_name": "node",
+      "resource_key": 0
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "module.vpc.aws_route_table.private[0]: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.110820+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.vpc.aws_route_table.private[0]",
+      "module": "module.vpc",
+      "resource": "aws_route_table.private[0]",
+      "implied_provider": "aws",
+      "resource_type": "aws_route_table",
+      "resource_name": "private",
+      "resource_key": 0
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "module.eks.aws_security_group.cluster[0]: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.111157+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.eks.aws_security_group.cluster[0]",
+      "module": "module.eks",
+      "resource": "aws_security_group.cluster[0]",
+      "implied_provider": "aws",
+      "resource_type": "aws_security_group",
+      "resource_name": "cluster",
+      "resource_key": 0
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "module.vpc.aws_subnet.public[0]: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.111332+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.vpc.aws_subnet.public[0]",
+      "module": "module.vpc",
+      "resource": "aws_subnet.public[0]",
+      "implied_provider": "aws",
+      "resource_type": "aws_subnet",
+      "resource_name": "public",
+      "resource_key": 0
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "module.vpc.aws_subnet.private[0]: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.111456+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.vpc.aws_subnet.private[0]",
+      "module": "module.vpc",
+      "resource": "aws_subnet.private[0]",
+      "implied_provider": "aws",
+      "resource_type": "aws_subnet",
+      "resource_name": "private",
+      "resource_key": 0
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "module.vpc.aws_route_table.public[0]: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.111582+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.vpc.aws_route_table.public[0]",
+      "module": "module.vpc",
+      "resource": "aws_route_table.public[0]",
+      "implied_provider": "aws",
+      "resource_type": "aws_route_table",
+      "resource_name": "public",
+      "resource_key": 0
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "module.vpc.aws_subnet.private[1]: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.111705+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.vpc.aws_subnet.private[1]",
+      "module": "module.vpc",
+      "resource": "aws_subnet.private[1]",
+      "implied_provider": "aws",
+      "resource_type": "aws_subnet",
+      "resource_name": "private",
+      "resource_key": 1
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "module.vpc.aws_subnet.private[2]: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.111844+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.vpc.aws_subnet.private[2]",
+      "module": "module.vpc",
+      "resource": "aws_subnet.private[2]",
+      "implied_provider": "aws",
+      "resource_type": "aws_subnet",
+      "resource_name": "private",
+      "resource_key": 2
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "module.vpc.aws_subnet.public[1]: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.111975+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.vpc.aws_subnet.public[1]",
+      "module": "module.vpc",
+      "resource": "aws_subnet.public[1]",
+      "implied_provider": "aws",
+      "resource_type": "aws_subnet",
+      "resource_name": "public",
+      "resource_key": 1
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "module.vpc.aws_subnet.public[2]: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.112108+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.vpc.aws_subnet.public[2]",
+      "module": "module.vpc",
+      "resource": "aws_subnet.public[2]",
+      "implied_provider": "aws",
+      "resource_type": "aws_subnet",
+      "resource_name": "public",
+      "resource_key": 2
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "module.eks.aws_iam_role_policy_attachment.this[\"AmazonEKSVPCResourceController\"]: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.112411+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.eks.aws_iam_role_policy_attachment.this[\"AmazonEKSVPCResourceController\"]",
+      "module": "module.eks",
+      "resource": "aws_iam_role_policy_attachment.this[\"AmazonEKSVPCResourceController\"]",
+      "implied_provider": "aws",
+      "resource_type": "aws_iam_role_policy_attachment",
+      "resource_name": "this",
+      "resource_key": "AmazonEKSVPCResourceController"
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "module.eks.module.eks_managed_node_group[\"eks_nodes\"].aws_iam_role.this[0]: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.112575+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.eks.module.eks_managed_node_group[\"eks_nodes\"].aws_iam_role.this[0]",
+      "module": "module.eks.module.eks_managed_node_group[\"eks_nodes\"]",
+      "resource": "aws_iam_role.this[0]",
+      "implied_provider": "aws",
+      "resource_type": "aws_iam_role",
+      "resource_name": "this",
+      "resource_key": 0
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "module.vpc.aws_internet_gateway.this[0]: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.112721+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.vpc.aws_internet_gateway.this[0]",
+      "module": "module.vpc",
+      "resource": "aws_internet_gateway.this[0]",
+      "implied_provider": "aws",
+      "resource_type": "aws_internet_gateway",
+      "resource_name": "this",
+      "resource_key": 0
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "module.eks.aws_iam_role_policy_attachment.this[\"AmazonEKSClusterPolicy\"]: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.112850+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.eks.aws_iam_role_policy_attachment.this[\"AmazonEKSClusterPolicy\"]",
+      "module": "module.eks",
+      "resource": "aws_iam_role_policy_attachment.this[\"AmazonEKSClusterPolicy\"]",
+      "implied_provider": "aws",
+      "resource_type": "aws_iam_role_policy_attachment",
+      "resource_name": "this",
+      "resource_key": "AmazonEKSClusterPolicy"
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "module.vpc.aws_route_table_association.public[2]: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.112989+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.vpc.aws_route_table_association.public[2]",
+      "module": "module.vpc",
+      "resource": "aws_route_table_association.public[2]",
+      "implied_provider": "aws",
+      "resource_type": "aws_route_table_association",
+      "resource_name": "public",
+      "resource_key": 2
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "module.vpc.aws_route_table_association.public[1]: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.113127+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.vpc.aws_route_table_association.public[1]",
+      "module": "module.vpc",
+      "resource": "aws_route_table_association.public[1]",
+      "implied_provider": "aws",
+      "resource_type": "aws_route_table_association",
+      "resource_name": "public",
+      "resource_key": 1
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "module.vpc.aws_route_table_association.public[0]: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.113270+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.vpc.aws_route_table_association.public[0]",
+      "module": "module.vpc",
+      "resource": "aws_route_table_association.public[0]",
+      "implied_provider": "aws",
+      "resource_type": "aws_route_table_association",
+      "resource_name": "public",
+      "resource_key": 0
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "module.vpc.aws_route_table_association.private[0]: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.113426+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.vpc.aws_route_table_association.private[0]",
+      "module": "module.vpc",
+      "resource": "aws_route_table_association.private[0]",
+      "implied_provider": "aws",
+      "resource_type": "aws_route_table_association",
+      "resource_name": "private",
+      "resource_key": 0
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "module.vpc.aws_route_table_association.private[1]: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.113693+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.vpc.aws_route_table_association.private[1]",
+      "module": "module.vpc",
+      "resource": "aws_route_table_association.private[1]",
+      "implied_provider": "aws",
+      "resource_type": "aws_route_table_association",
+      "resource_name": "private",
+      "resource_key": 1
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "module.vpc.aws_route_table_association.private[2]: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.113843+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.vpc.aws_route_table_association.private[2]",
+      "module": "module.vpc",
+      "resource": "aws_route_table_association.private[2]",
+      "implied_provider": "aws",
+      "resource_type": "aws_route_table_association",
+      "resource_name": "private",
+      "resource_key": 2
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "module.eks.aws_security_group_rule.node[\"ingress_nodes_ephemeral\"]: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.113989+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.eks.aws_security_group_rule.node[\"ingress_nodes_ephemeral\"]",
+      "module": "module.eks",
+      "resource": "aws_security_group_rule.node[\"ingress_nodes_ephemeral\"]",
+      "implied_provider": "aws",
+      "resource_type": "aws_security_group_rule",
+      "resource_name": "node",
+      "resource_key": "ingress_nodes_ephemeral"
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "module.eks.aws_security_group_rule.node[\"ingress_self_coredns_tcp\"]: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.114130+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.eks.aws_security_group_rule.node[\"ingress_self_coredns_tcp\"]",
+      "module": "module.eks",
+      "resource": "aws_security_group_rule.node[\"ingress_self_coredns_tcp\"]",
+      "implied_provider": "aws",
+      "resource_type": "aws_security_group_rule",
+      "resource_name": "node",
+      "resource_key": "ingress_self_coredns_tcp"
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "module.eks.aws_security_group_rule.node[\"ingress_cluster_kubelet\"]: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.114269+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.eks.aws_security_group_rule.node[\"ingress_cluster_kubelet\"]",
+      "module": "module.eks",
+      "resource": "aws_security_group_rule.node[\"ingress_cluster_kubelet\"]",
+      "implied_provider": "aws",
+      "resource_type": "aws_security_group_rule",
+      "resource_name": "node",
+      "resource_key": "ingress_cluster_kubelet"
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "module.eks.aws_security_group_rule.node[\"egress_all\"]: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.114436+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.eks.aws_security_group_rule.node[\"egress_all\"]",
+      "module": "module.eks",
+      "resource": "aws_security_group_rule.node[\"egress_all\"]",
+      "implied_provider": "aws",
+      "resource_type": "aws_security_group_rule",
+      "resource_name": "node",
+      "resource_key": "egress_all"
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "module.eks.aws_security_group_rule.node[\"ingress_cluster_8443_webhook\"]: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.114571+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.eks.aws_security_group_rule.node[\"ingress_cluster_8443_webhook\"]",
+      "module": "module.eks",
+      "resource": "aws_security_group_rule.node[\"ingress_cluster_8443_webhook\"]",
+      "implied_provider": "aws",
+      "resource_type": "aws_security_group_rule",
+      "resource_name": "node",
+      "resource_key": "ingress_cluster_8443_webhook"
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "module.eks.aws_security_group_rule.node[\"ingress_self_coredns_udp\"]: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.114712+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.eks.aws_security_group_rule.node[\"ingress_self_coredns_udp\"]",
+      "module": "module.eks",
+      "resource": "aws_security_group_rule.node[\"ingress_self_coredns_udp\"]",
+      "implied_provider": "aws",
+      "resource_type": "aws_security_group_rule",
+      "resource_name": "node",
+      "resource_key": "ingress_self_coredns_udp"
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "module.eks.aws_security_group_rule.node[\"ingress_cluster_9443_webhook\"]: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.115509+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.eks.aws_security_group_rule.node[\"ingress_cluster_9443_webhook\"]",
+      "module": "module.eks",
+      "resource": "aws_security_group_rule.node[\"ingress_cluster_9443_webhook\"]",
+      "implied_provider": "aws",
+      "resource_type": "aws_security_group_rule",
+      "resource_name": "node",
+      "resource_key": "ingress_cluster_9443_webhook"
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "module.eks.aws_security_group_rule.node[\"ingress_cluster_6443_webhook\"]: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.115636+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.eks.aws_security_group_rule.node[\"ingress_cluster_6443_webhook\"]",
+      "module": "module.eks",
+      "resource": "aws_security_group_rule.node[\"ingress_cluster_6443_webhook\"]",
+      "implied_provider": "aws",
+      "resource_type": "aws_security_group_rule",
+      "resource_name": "node",
+      "resource_key": "ingress_cluster_6443_webhook"
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "module.eks.aws_security_group_rule.node[\"ingress_cluster_4443_webhook\"]: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.115811+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.eks.aws_security_group_rule.node[\"ingress_cluster_4443_webhook\"]",
+      "module": "module.eks",
+      "resource": "aws_security_group_rule.node[\"ingress_cluster_4443_webhook\"]",
+      "implied_provider": "aws",
+      "resource_type": "aws_security_group_rule",
+      "resource_name": "node",
+      "resource_key": "ingress_cluster_4443_webhook"
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "module.eks.aws_security_group_rule.node[\"ingress_cluster_443\"]: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.116009+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.eks.aws_security_group_rule.node[\"ingress_cluster_443\"]",
+      "module": "module.eks",
+      "resource": "aws_security_group_rule.node[\"ingress_cluster_443\"]",
+      "implied_provider": "aws",
+      "resource_type": "aws_security_group_rule",
+      "resource_name": "node",
+      "resource_key": "ingress_cluster_443"
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "module.eks.aws_security_group_rule.cluster[\"ingress_nodes_443\"]: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.116275+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.eks.aws_security_group_rule.cluster[\"ingress_nodes_443\"]",
+      "module": "module.eks",
+      "resource": "aws_security_group_rule.cluster[\"ingress_nodes_443\"]",
+      "implied_provider": "aws",
+      "resource_type": "aws_security_group_rule",
+      "resource_name": "cluster",
+      "resource_key": "ingress_nodes_443"
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "module.vpc.aws_route.public_internet_gateway[0]: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.116439+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.vpc.aws_route.public_internet_gateway[0]",
+      "module": "module.vpc",
+      "resource": "aws_route.public_internet_gateway[0]",
+      "implied_provider": "aws",
+      "resource_type": "aws_route",
+      "resource_name": "public_internet_gateway",
+      "resource_key": 0
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "module.vpc.aws_eip.nat[0]: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.116583+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.vpc.aws_eip.nat[0]",
+      "module": "module.vpc",
+      "resource": "aws_eip.nat[0]",
+      "implied_provider": "aws",
+      "resource_type": "aws_eip",
+      "resource_name": "nat",
+      "resource_key": 0
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "module.vpc.aws_nat_gateway.this[0]: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.116708+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.vpc.aws_nat_gateway.this[0]",
+      "module": "module.vpc",
+      "resource": "aws_nat_gateway.this[0]",
+      "implied_provider": "aws",
+      "resource_type": "aws_nat_gateway",
+      "resource_name": "this",
+      "resource_key": 0
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "module.vpc.aws_route.private_nat_gateway[0]: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.116839+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.vpc.aws_route.private_nat_gateway[0]",
+      "module": "module.vpc",
+      "resource": "aws_route.private_nat_gateway[0]",
+      "implied_provider": "aws",
+      "resource_type": "aws_route",
+      "resource_name": "private_nat_gateway",
+      "resource_key": 0
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "module.eks.module.eks_managed_node_group[\"eks_nodes\"].aws_iam_role_policy_attachment.this[\"arn:aws:iam::aws:policy/AmazonEKS_CNI_Policy\"]: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.116977+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.eks.module.eks_managed_node_group[\"eks_nodes\"].aws_iam_role_policy_attachment.this[\"arn:aws:iam::aws:policy/AmazonEKS_CNI_Policy\"]",
+      "module": "module.eks.module.eks_managed_node_group[\"eks_nodes\"]",
+      "resource": "aws_iam_role_policy_attachment.this[\"arn:aws:iam::aws:policy/AmazonEKS_CNI_Policy\"]",
+      "implied_provider": "aws",
+      "resource_type": "aws_iam_role_policy_attachment",
+      "resource_name": "this",
+      "resource_key": "arn:aws:iam::aws:policy/AmazonEKS_CNI_Policy"
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "module.eks.module.eks_managed_node_group[\"eks_nodes\"].aws_iam_role_policy_attachment.this[\"arn:aws:iam::aws:policy/AmazonEC2ContainerRegistryReadOnly\"]: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.117181+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.eks.module.eks_managed_node_group[\"eks_nodes\"].aws_iam_role_policy_attachment.this[\"arn:aws:iam::aws:policy/AmazonEC2ContainerRegistryReadOnly\"]",
+      "module": "module.eks.module.eks_managed_node_group[\"eks_nodes\"]",
+      "resource": "aws_iam_role_policy_attachment.this[\"arn:aws:iam::aws:policy/AmazonEC2ContainerRegistryReadOnly\"]",
+      "implied_provider": "aws",
+      "resource_type": "aws_iam_role_policy_attachment",
+      "resource_name": "this",
+      "resource_key": "arn:aws:iam::aws:policy/AmazonEC2ContainerRegistryReadOnly"
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "module.eks.module.eks_managed_node_group[\"eks_nodes\"].aws_iam_role_policy_attachment.this[\"arn:aws:iam::aws:policy/AmazonEKSWorkerNodePolicy\"]: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.117351+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.eks.module.eks_managed_node_group[\"eks_nodes\"].aws_iam_role_policy_attachment.this[\"arn:aws:iam::aws:policy/AmazonEKSWorkerNodePolicy\"]",
+      "module": "module.eks.module.eks_managed_node_group[\"eks_nodes\"]",
+      "resource": "aws_iam_role_policy_attachment.this[\"arn:aws:iam::aws:policy/AmazonEKSWorkerNodePolicy\"]",
+      "implied_provider": "aws",
+      "resource_type": "aws_iam_role_policy_attachment",
+      "resource_name": "this",
+      "resource_key": "arn:aws:iam::aws:policy/AmazonEKSWorkerNodePolicy"
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "module.eks.module.kms.data.aws_iam_policy_document.this[0]: Plan to read",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.117636+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.eks.module.kms.data.aws_iam_policy_document.this[0]",
+      "module": "module.eks.module.kms",
+      "resource": "data.aws_iam_policy_document.this[0]",
+      "implied_provider": "aws",
+      "resource_type": "aws_iam_policy_document",
+      "resource_name": "this",
+      "resource_key": 0
+    },
+    "action": "read",
+    "reason": "read_because_config_unknown"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "module.eks.module.kms.aws_kms_key.this[0]: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.117799+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.eks.module.kms.aws_kms_key.this[0]",
+      "module": "module.eks.module.kms",
+      "resource": "aws_kms_key.this[0]",
+      "implied_provider": "aws",
+      "resource_type": "aws_kms_key",
+      "resource_name": "this",
+      "resource_key": 0
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "module.eks.aws_iam_policy.cluster_encryption[0]: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.117935+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.eks.aws_iam_policy.cluster_encryption[0]",
+      "module": "module.eks",
+      "resource": "aws_iam_policy.cluster_encryption[0]",
+      "implied_provider": "aws",
+      "resource_type": "aws_iam_policy",
+      "resource_name": "cluster_encryption",
+      "resource_key": 0
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "module.eks.module.kms.aws_kms_alias.this[\"cluster\"]: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.118072+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.eks.module.kms.aws_kms_alias.this[\"cluster\"]",
+      "module": "module.eks.module.kms",
+      "resource": "aws_kms_alias.this[\"cluster\"]",
+      "implied_provider": "aws",
+      "resource_type": "aws_kms_alias",
+      "resource_name": "this",
+      "resource_key": "cluster"
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "module.eks.aws_iam_role_policy_attachment.cluster_encryption[0]: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.118233+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.eks.aws_iam_role_policy_attachment.cluster_encryption[0]",
+      "module": "module.eks",
+      "resource": "aws_iam_role_policy_attachment.cluster_encryption[0]",
+      "implied_provider": "aws",
+      "resource_type": "aws_iam_role_policy_attachment",
+      "resource_name": "cluster_encryption",
+      "resource_key": 0
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "module.eks.aws_eks_cluster.this[0]: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.118377+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.eks.aws_eks_cluster.this[0]",
+      "module": "module.eks",
+      "resource": "aws_eks_cluster.this[0]",
+      "implied_provider": "aws",
+      "resource_type": "aws_eks_cluster",
+      "resource_name": "this",
+      "resource_key": 0
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "module.eks.data.tls_certificate.this[0]: Plan to read",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.118506+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.eks.data.tls_certificate.this[0]",
+      "module": "module.eks",
+      "resource": "data.tls_certificate.this[0]",
+      "implied_provider": "tls",
+      "resource_type": "tls_certificate",
+      "resource_name": "this",
+      "resource_key": 0
+    },
+    "action": "read",
+    "reason": "read_because_config_unknown"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "module.eks.aws_iam_openid_connect_provider.oidc_provider[0]: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.118639+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.eks.aws_iam_openid_connect_provider.oidc_provider[0]",
+      "module": "module.eks",
+      "resource": "aws_iam_openid_connect_provider.oidc_provider[0]",
+      "implied_provider": "aws",
+      "resource_type": "aws_iam_openid_connect_provider",
+      "resource_name": "oidc_provider",
+      "resource_key": 0
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "module.eks.time_sleep.this[0]: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.119125+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.eks.time_sleep.this[0]",
+      "module": "module.eks",
+      "resource": "time_sleep.this[0]",
+      "implied_provider": "time",
+      "resource_type": "time_sleep",
+      "resource_name": "this",
+      "resource_key": 0
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "module.eks.module.eks_managed_node_group[\"eks_nodes\"].aws_launch_template.this[0]: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.119312+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.eks.module.eks_managed_node_group[\"eks_nodes\"].aws_launch_template.this[0]",
+      "module": "module.eks.module.eks_managed_node_group[\"eks_nodes\"]",
+      "resource": "aws_launch_template.this[0]",
+      "implied_provider": "aws",
+      "resource_type": "aws_launch_template",
+      "resource_name": "this",
+      "resource_key": 0
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "module.eks.module.eks_managed_node_group[\"eks_nodes\"].aws_eks_node_group.this[0]: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.119463+05:30",
+  "change": {
+    "resource": {
+      "addr": "module.eks.module.eks_managed_node_group[\"eks_nodes\"].aws_eks_node_group.this[0]",
+      "module": "module.eks.module.eks_managed_node_group[\"eks_nodes\"]",
+      "resource": "aws_eks_node_group.this[0]",
+      "implied_provider": "aws",
+      "resource_type": "aws_eks_node_group",
+      "resource_name": "this",
+      "resource_key": 0
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "aws_autoscaling_policy.node_group_policy: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.119638+05:30",
+  "change": {
+    "resource": {
+      "addr": "aws_autoscaling_policy.node_group_policy",
+      "module": "",
+      "resource": "aws_autoscaling_policy.node_group_policy",
+      "implied_provider": "aws",
+      "resource_type": "aws_autoscaling_policy",
+      "resource_name": "node_group_policy",
+      "resource_key": null
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "aws_cloudwatch_metric_alarm.high_cpu_utilization: Plan to create",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.119764+05:30",
+  "change": {
+    "resource": {
+      "addr": "aws_cloudwatch_metric_alarm.high_cpu_utilization",
+      "module": "",
+      "resource": "aws_cloudwatch_metric_alarm.high_cpu_utilization",
+      "implied_provider": "aws",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "resource_name": "high_cpu_utilization",
+      "resource_key": null
+    },
+    "action": "create"
+  },
+  "type": "planned_change"
+}
+{
+  "@level": "info",
+  "@message": "Plan: 55 to add, 0 to change, 0 to destroy.",
+  "@module": "terraform.ui",
+  "@timestamp": "2024-06-21T09:00:28.119887+05:30",
+  "changes": {
+    "add": 55,
+    "change": 0,
+    "import": 0,
+    "remove": 0,
+    "operation": "plan"
+  },
+  "type": "change_summary"
+}
