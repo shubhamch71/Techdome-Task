@@ -19,7 +19,7 @@ This project sets up an EKS cluster on AWS using Terraform, designed to deploy t
    ```bash
    terraform plan
    ```
-   **This wil show you the resources that will be created and destroyed. A output file of the same has been attached here --> [Plan Output](#Terraform/enivronments/dev/plan.json)**
+   **This wil show you the resources that will be created and destroyed. A output file of the same has been attached in the same repo on the following location:- Terraform/environments/dev/plan.json**
 
 4. Apply the plan 
    ```bash
