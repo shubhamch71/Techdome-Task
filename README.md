@@ -114,8 +114,8 @@ backend dir
 1. **Build the Docker images** for both frontend and backend:
 
    ```bash
-   docker build -t username/<image-name> ./frontend
-   docker build -t username/<image-name> ./backend
+   docker build -t username/<image-name> ./Techdome-frontend
+   docker build -t username/<image-name> ./Techdome-backend
    ```
 
 2. **Push the images** to Docker Hub or another container registry:
