@@ -26,3 +26,11 @@
    kubectl scale deployment frontend --replicas=3 #Change the no of replicas as you need
    kubectl scale deployment backend --replicas=3  #Change the no of replicas as you need
    ```
+
+## For Production Deployment 
+**We can use the following deployment Strategies**:  
+1.Blue/Green  
+2.Canary  
+3.A/B  
+4.Ramped Slow Rollout  
+5.Shadow Deployment
