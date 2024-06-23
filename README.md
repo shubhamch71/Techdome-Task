@@ -202,6 +202,23 @@ Object { stack: "fr@http://192.168.49.2:32081/static/js/main.a16b5dbf.js:2:27896
  
 By implementing these changes, the application will be more secure.
 
+## Output Images
+### Docker compose 
+![image](https://github.com/shubhamch71/Techdome-Task/assets/83663663/ede4964c-142e-4a95-8dcd-4e79b04cfdd2)
+
+**Website**
+![image](https://github.com/shubhamch71/Techdome-Task/assets/83663663/1e70dd5f-199b-4f07-9460-12c7270597b7)
+
+### Kubernetes
+![image](https://github.com/shubhamch71/Techdome-Task/assets/83663663/c8fe7d03-5d7b-4f34-b868-343415037615)
+
+**Website**
+![image](https://github.com/shubhamch71/Techdome-Task/assets/83663663/69a5c01d-cc38-430e-a94a-d61cca583c9b)
+
+### Terraform 
+
+**For Terraform refer the oputput file attached in the Terraform folder of this repo for the services that will be created on AWS for deploying this application.**
+
 ## Conclusion
 
 This document provides a comprehensive overview of the TechDome application architecture, deployment strategy, and instructions for building, deploying, and managing the application. By following the steps outlined, you can ensure a smooth and secure deployment process.
